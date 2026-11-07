@@ -1,0 +1,379 @@
+[
+  {
+    "id": "pechuga_pollo",
+    "nombre": "Filetes de pechuga de pollo",
+    "keywords": [
+      "filete pechuga",
+      "pechuga fino",
+      "pechuga pollo"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "carniceria"
+  },
+  {
+    "id": "bebida_avena",
+    "nombre": "Bebida de avena",
+    "keywords": [
+      "bebida avena"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "lacteos_y_bebidas"
+  },
+  {
+    "id": "chorizo_leon",
+    "nombre": "Chorizo de León dulce",
+    "keywords": [
+      "chorizo león",
+      "chorizo leon"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl"
+    ],
+    "categoria": "charcuteria"
+  },
+  {
+    "id": "arandanos",
+    "nombre": "Arándanos frescos (225g / 250g)",
+    "keywords": [
+      "arándano",
+      "arandano"
+    ],
+    "exclude_keywords": [
+      "mermelada",
+      "yogur",
+      "tarta",
+      "batido"
+    ],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "frambuesas",
+    "nombre": "Frambuesas frescas",
+    "keywords": [
+      "frambuesa",
+      "frambuesas"
+    ],
+    "exclude_keywords": [
+      "mermelada",
+      "yogur",
+      "tarta"
+    ],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "fresas",
+    "nombre": "Fresas / Fresón",
+    "keywords": [
+      "fresas",
+      "fresón",
+      "freson"
+    ],
+    "exclude_keywords": [
+      "bebida",
+      "yogur",
+      "helado",
+      "mermelada",
+      "danacol",
+      "gelatina"
+    ],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "mandarinas",
+    "nombre": "Mandarinas",
+    "keywords": [
+      "mandarina",
+      "mandarinas"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "platanos_bananas",
+    "nombre": "Plátano / Banana",
+    "keywords": [
+      "banana",
+      "plátano",
+      "platano",
+      "platan"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "uva_blanca",
+    "nombre": "Uva blanca sin semilla",
+    "keywords": [
+      "uva blanca"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "frutas_y_verduras"
+  },
+  {
+    "id": "lomo_vacuno",
+    "nombre": "Lomo bajo de ternera / añojo",
+    "keywords": [
+      "lomo añojo",
+      "lomo anojo",
+      "lomo bajo de ternera",
+      "lomo ternera"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "carniceria"
+  },
+  {
+    "id": "solomillo",
+    "nombre": "Solomillo",
+    "keywords": [
+      "solomillo"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "carniceria"
+  },
+  {
+    "id": "jamon_serrano",
+    "nombre": "Jamón serrano / sin aditivos",
+    "keywords": [
+      "jamón s. s/aditivos",
+      "jamon extrafino",
+      "jamón extrafino"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "charcuteria"
+  },
+  {
+    "id": "pechuga_pavo",
+    "nombre": "Pechuga de pavo cocida / asada",
+    "keywords": [
+      "pechuga pavo",
+      "pavo extrafino"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "charcuteria"
+  },
+  {
+    "id": "yogur_griego",
+    "nombre": "Yogur griego natural",
+    "keywords": [
+      "griego natural"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "lacteos"
+  },
+  {
+    "id": "queso_blanco",
+    "nombre": "Queso blanco natural / Cottage",
+    "keywords": [
+      "queso blanco natural",
+      "queso cottage"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl"
+    ],
+    "categoria": "lacteos"
+  },
+  {
+    "id": "burrata",
+    "nombre": "Burrata / Burrata de búfala",
+    "keywords": [
+      "burrata"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "lacteos"
+  },
+  {
+    "id": "queso_curado",
+    "nombre": "Queso curado / viejo / cuñas",
+    "keywords": [
+      "cuña cortada",
+      "q. tostado cuñitas",
+      "grana padano"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl"
+    ],
+    "categoria": "lacteos"
+  },
+  {
+    "id": "huevos_camperos",
+    "nombre": "Huevos camperos",
+    "keywords": [
+      "huevos camperos",
+      "huevo campero"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "huevos"
+  },
+  {
+    "id": "bonito_norte",
+    "nombre": "Bonito del norte en aceite de oliva",
+    "keywords": [
+      "bonito norte",
+      "bonito del norte"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "eroski"
+    ],
+    "categoria": "conservas"
+  },
+  {
+    "id": "salmon_noruego",
+    "nombre": "Lomo de salmón noruego",
+    "keywords": [
+      "salmón noruego",
+      "salmon noruego",
+      "lomo salmón"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "pescaderia"
+  },
+  {
+    "id": "merluza",
+    "nombre": "Porciones de merluza",
+    "keywords": [
+      "porciones de merluza",
+      "lomos de merluza"
+    ],
+    "exclude_keywords": [
+      "varitas",
+      "fingers"
+    ],
+    "cadenas": [
+      "mercadona",
+      "lidl",
+      "eroski"
+    ],
+    "categoria": "pescaderia"
+  },
+  {
+    "id": "cafe_grano",
+    "nombre": "Café en grano Forte",
+    "keywords": [
+      "café forte grano",
+      "cafe forte grano",
+      "café grano forte"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona"
+    ],
+    "categoria": "despensa"
+  },
+  {
+    "id": "papel_humedo",
+    "nombre": "Papel higiénico húmedo / WC",
+    "keywords": [
+      "papel humedo wc",
+      "papel húmedo",
+      "papel higiénico húm"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl"
+    ],
+    "categoria": "hogar"
+  },
+  {
+    "id": "toallitas_bebe",
+    "nombre": "Toallitas de bebé",
+    "keywords": [
+      "toallitas bebé",
+      "toal bebé"
+    ],
+    "exclude_keywords": [],
+    "cadenas": [
+      "mercadona",
+      "lidl"
+    ],
+    "categoria": "bebe"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "Mercadona_mandarinas_1.95": {
+    "fecha": "2026-11-07",
+    "cadena": "Mercadona",
+    "nombre": "Mandarina",
+    "precio": 1.95,
+    "descuento": 17
+  },
+  "Eroski_platanos_bananas_2.49": {
+    "fecha": "2026-11-07",
+    "cadena": "Eroski",
+    "nombre": "Platan De Canàries",
+    "precio": 2.49,
+    "descuento": 19
+  },
+  "Eroski_mandarinas_1.99": {
+    "fecha": "2026-11-07",
+    "cadena": "Eroski",
+    "nombre": "Mandarina",
+    "precio": 1.99,
+    "descuento": 15
+  }
+}
