@@ -5,5 +5,19 @@
     "nombre": "Mandarina",
     "precio": 1.95,
     "descuento": 17
+  },
+  "Lidl_pechuga_pollo_4.55": {
+    "fecha": "2026-11-08",
+    "cadena": "Lidl",
+    "nombre": "Realvalle Filete de pechuga de pavo",
+    "precio": 4.55,
+    "descuento": 3
+  },
+  "Lidl_yogur_griego_1.15": {
+    "fecha": "2026-11-08",
+    "cadena": "Lidl",
+    "nombre": "MILBONA Griego natural light",
+    "precio": 1.15,
+    "descuento": 17
   }
 }
