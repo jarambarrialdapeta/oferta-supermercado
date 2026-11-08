@@ -20,7 +20,19 @@ def parse_price(val):
 
 def fetch_eroski_deals() -> list:
     """Extrae las ofertas de Eroski Azkoitia publicadas en Tiendeo."""
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Sec-Ch-Ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1"
+    }
     req = urllib.request.Request(TIENDEO_EROSKI_URL, headers=headers)
     deals = []
     try:
@@ -35,7 +47,6 @@ def fetch_eroski_deals() -> list:
         data = json.loads(scripts[0])
         api_res = data.get("props", {}).get("pageProps", {}).get("apiResources", {})
         
-        # Combinar ofertas de offersTable y flyerGibsData
         raw_items = []
         ot = api_res.get("offersTable", {})
         raw_items.extend(ot.get("flyerGibs", []))
@@ -52,7 +63,6 @@ def fetch_eroski_deals() -> list:
             
             settings = item.get("settings") or {}
             title = item.get("title") or ""
-            # Limpiar prefijo 'Eroski - ' si existe para facilitar matching
             nombre = re.sub(r"^Eroski\s*-\s*", "", title, flags=re.I).strip()
             
             price_val = parse_price(settings.get("price")) or parse_price(item.get("price"))

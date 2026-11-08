@@ -10,7 +10,6 @@ TIENDEO_LIDL_URL = "https://www.tiendeo.com/azkoitia/lidl"
 def parse_price(val):
     if not val:
         return None
-    # val is like "€ 3.49" or "3.49" or 3.49
     if isinstance(val, (int, float)):
         return float(val)
     val = str(val).replace("€", "").strip().replace(",", ".")
@@ -21,7 +20,19 @@ def parse_price(val):
 
 def fetch_lidl_deals() -> list:
     """Extrae las ofertas de Lidl Azkoitia publicadas en Tiendeo."""
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Sec-Ch-Ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1"
+    }
     req = urllib.request.Request(TIENDEO_LIDL_URL, headers=headers)
     deals = []
     try:
@@ -45,7 +56,6 @@ def fetch_lidl_deals() -> list:
             sale_str = settings.get("sale")
             ocr_text = settings.get("google_vision_text", "")
             
-            # Si no hay descuento explícito en sale, calcularlo
             descuento = None
             if sale_str and "%" in sale_str:
                 try:
