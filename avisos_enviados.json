@@ -1,1 +1,9 @@
-{}
+{
+  "Mercadona_mandarinas_1.95": {
+    "fecha": "2026-11-08",
+    "cadena": "Mercadona",
+    "nombre": "Mandarina",
+    "precio": 1.95,
+    "descuento": 17
+  }
+}
