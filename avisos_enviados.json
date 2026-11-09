@@ -19,5 +19,12 @@
     "nombre": "MILBONA Griego natural light",
     "precio": 1.15,
     "descuento": 17
+  },
+  "Mercadona_jamon_serrano_2.4": {
+    "fecha": "2026-11-09",
+    "cadena": "Mercadona",
+    "nombre": "Jamón cocido extrafino Hacendado lonchas",
+    "precio": 2.4,
+    "descuento": 4
   }
 }
