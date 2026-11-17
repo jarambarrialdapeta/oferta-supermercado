@@ -26,5 +26,12 @@
     "nombre": "Jamón cocido extrafino Hacendado lonchas",
     "precio": 2.4,
     "descuento": 4
+  },
+  "Eroski_bonito_norte_9.99": {
+    "fecha": "2026-11-17",
+    "cadena": "Eroski",
+    "nombre": "Bonito Del Norte En Acimals",
+    "precio": 9.99,
+    "descuento": 25
   }
 }
