@@ -1,25 +1,4 @@
 {
-  "Mercadona_mandarinas_1.95": {
-    "fecha": "2026-11-08",
-    "cadena": "Mercadona",
-    "nombre": "Mandarina",
-    "precio": 1.95,
-    "descuento": 17
-  },
-  "Lidl_pechuga_pollo_4.55": {
-    "fecha": "2026-11-08",
-    "cadena": "Lidl",
-    "nombre": "Realvalle Filete de pechuga de pavo",
-    "precio": 4.55,
-    "descuento": 3
-  },
-  "Lidl_yogur_griego_1.15": {
-    "fecha": "2026-11-08",
-    "cadena": "Lidl",
-    "nombre": "MILBONA Griego natural light",
-    "precio": 1.15,
-    "descuento": 17
-  },
   "Mercadona_jamon_serrano_2.4": {
     "fecha": "2026-11-19",
     "cadena": "Mercadona",
@@ -33,5 +12,19 @@
     "nombre": "Bonito Del Norte En Acimals",
     "precio": 9.99,
     "descuento": 25
+  },
+  "Lidl_mandarinas_1.39": {
+    "fecha": "2026-11-23",
+    "cadena": "Lidl",
+    "nombre": "Mandarina nacional granel",
+    "precio": 1.39,
+    "descuento": 33
+  },
+  "Lidl_pechuga_pollo_5.69": {
+    "fecha": "2026-11-23",
+    "cadena": "Lidl",
+    "nombre": "Realvalle Pechuga de pollo fileteada",
+    "precio": 5.69,
+    "descuento": 20
   }
 }
